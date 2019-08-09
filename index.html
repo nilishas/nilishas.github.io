@@ -1,129 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>My Site</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-div.a {
-	background-color: #f0f0f0;
-	border: 2px solid black;
-	text-align: center;
-}
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		div.intro {
+			background-color: #f0f0f0;
+			text-align: center;
+		}
 
-portrait {
-	width: 50px;
-	display: block;
-}
+		img.portrait {
+			width: 150px;
+			display: block;
+			float: right;
+		}
 
-img {
-	float: right;
-}
+		body {
+			background-color: #f0f0f0;
+		}
 
-body {
-	background-color: #f0f0f0;
-}
+		h1 {
+			text-align: center;
+		}
+		h2{
+			color: #03b6fc;
+		}
 
-h1 {
-	text-align: center;
-}
+		div.connect {
+			background-color: #f0f0f0;
+			border: 1px solid black;
+			text-align: center;
+			margin: 10px 0 0 0;
+		}
+		table.schools {
+			width: 100%;
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		h4.connect{
+			color: #03b6fc;
+		}
 
-div.connect {
-	background-color: #f0f0f0;
-	border: 1px solid black;
-	text-align: center;
-	margin: 10px 0 0 0;
-}
-</style>
+	</style>
 </head>
 <body>
-	<div class=a>
+	<div class="intro">
 		<h1>Nilisha Soni</h1>
-		<p>Software Developer</p>
 	</div>
 	<br>
 	<img class="portrait"
-		src="https://qph.fs.quoracdn.net/main-raw-39522487-durfrovfofhlihgqlyghzxzbjqkugrwu.jpeg"
-		alt="Nilisha Soni">
+	src="https://qph.fs.quoracdn.net/main-raw-39522487-durfrovfofhlihgqlyghzxzbjqkugrwu.jpeg"
+	alt="Nilisha Soni">
 	<div class="aboutMe">
 		<h2>About me</h2>
-		<p>Software Engineer with a demonstrated history of working on the
-			server side and REST APIs. I work as a core Software Developer in a
-			product development environment. My language of expertise and current
-			projects are in Java, Spring boot where I build REST APIs. Databases
-			that I have worked upon include MongoDb and MySQL. My
-			responsibilities also involve part DevOps in Kubernetes and Docker. I
-			have a fair knowledge base and experience of AWS ( ES, SQS, S3, RDS).</p>
+		<p>I am a software developer with a demonstarted skill in writing scalable and efficient code. I mostly work on the backend and logic implementation. I practice writing modular, testable code abiding  by design patterns as applicable.</p>
 	</div>
-	<div class="experience">
-		<h2>Experience</h2>
-		<h3>Infoobjects Inc, Jaipur — Software Developer</h3>
-		(May 2017 - PRESENT)
-		<p>
-		<ul>
-			<li>Project : (Type - Fintech Application, November
-				2018-Present)
-				<ul>
-					<li>Worked on MySQL schema for the project.</li>
-					<li>Implemented discounts, credits and debits as per invoices.
-					</li>
-					<li>Developed REST APIs in Java for the application.</li>
-					<li>Integrated multiple third party libraries for user
-						verification,compliance check, wallet transactions and currency
-						rates.</li>
-				</ul>
-			</li>
-			<li>Project :(Type - Product , August 2017- Present)
-				<ul>
-					<li>Developed REST APIs in Java spring-boot and python-flask
-						for microservices across the product.</li>
-					<li>Built the backend for the product UI in Java. Improved
-						performance by using websockets.</li>
-					<li>Worked on the security layer(RSA implementation), message
-						bus implementation, and API gateway for service discovery and load
-						balancing.</li>
-					<li>Containerized applications to be hosted on Kubernetes.</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<div class="skills">
-		<h2>Skills</h2>
-		<em>Programming Languages</em>: Java, Python <br> <em>Application
-			Frameworks</em>: Spring-boot, Flask<br> <em>Database and Storage</em>:
-		DynamoDB, MySQL, MongoDB <br> <em>Big Data Ecosystems</em>:
-		Zookeeper, Kafka, Elasticsearch, Logstash, Kibana<br> <em>Tools</em>:
-		Eclipse, Pycharm, Sublime<br> <em>Version Control</em> : Git <br>
-		<em>Platforms</em>: Linux, MacOS <br> <em>Application Server</em>:
-		Apache Tomcat (Eureka) <br> <em>Container Orchestration
-			Platforms</em>: Kubernetes, Swarm <br> <em>AWS </em>: ES , S3, SQS,
-		RDS <br>
-	</div>
-
+	<table>
+		<tr>
+			<td>
+				<div class="experience">
+					<h2>Experience</h2>
+					<h3>Infoobjects Inc, Jaipur — Software Developer</h3>
+					(May 2017 - PRESENT)
+					<ul>
+						<li>Project : (Type - Fintech Application, November
+							2018-Present)
+							<ul>
+								<li>Worked on MySQL schema for the project.</li>
+								<li>Implemented discounts, credits and debits as per invoices.
+								</li>
+								<li>Developed REST APIs in Java for the application.</li>
+								<li>Integrated multiple third party libraries for user
+									verification,compliance check, wallet transactions and currency
+								rates.</li>
+							</ul>
+						</li>
+						<li>Project :(Type - Product , August 2017- Present)
+							<ul>
+								<li>Developed REST APIs in Java spring-boot and python-flask
+								for microservices across the product.</li>
+								<li>Built the backend for the product UI in Java. Improved
+								performance by using websockets.</li>
+								<li>Worked on the security layer(RSA implementation), message
+									bus implementation, and API gateway for service discovery and load
+								balancing.</li>
+								<li>Containerized applications to be hosted on Kubernetes.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</td>
+			<td>
+				<div class="skills">
+					<h2>Skills</h2>
+					<em>Programming Languages</em>: Java, Python <br> <em>Application
+					Frameworks</em>: Spring-boot, Flask<br> <em>Database and Storage</em>:
+					DynamoDB, MySQL, MongoDB <br> <em>Big Data Ecosystems</em>:
+					Zookeeper, Kafka, Elasticsearch, Logstash, Kibana<br> <em>Tools</em>:
+					Eclipse, Pycharm, Sublime<br> <em>Version Control</em> : Git <br>
+					<em>Platforms</em>: Linux, MacOS <br> <em>Application Server</em>:
+					Apache Tomcat (Eureka) <br> <em>Container Orchestration
+					Platforms</em>: Kubernetes, Swarm <br> <em>AWS </em>: ES , S3, SQS,
+					RDS <br>
+				</div>
+			</td>
+		</tr>
+	</table>
 	<div class="Education">
 		<h2>Education</h2>
-		<ul>
-			<li>B.Tech (CSE) - The LNMIIT,<br>Jaipur (2013-2017)-7.54
-				CGPA
-			</li>
-			<li>SSC-CBSE (2012) - Mody School,<br>Lakshmangarh -89%
-			</li>
-			<li>HSC-CBSE (2010)- Mody School, <br>Lakshmangarh - 9.8
-				CGPA
-			</li>
-		</ul>
+		<table class ="schools">
+			<tr>
+				<td>B.Tech (CSE) - The LNMIIT,<br>Jaipur (2013-2017)-7.54
+					CGPA
+				</td>
+				<td>SSC-CBSE (2012) - Mody School,<br>Lakshmangarh -89%
+				</td>
+				<td>HSC-CBSE (2010)- Mody School, <br>Lakshmangarh - 9.8
+					CGPA
+				</td>
+			</tr>	
+		</table>
 	</div>
 	<br>
 	<div class="connect">
-		<h4>
-			Connect with me
-			</h3>
-			<p>
-				<em> nilishasoni7@gmail.com </em>
-			</p>
-			<em><a href="https://www.linkedin.com/in/nilishasoni">
-					LinkedIn </a></em>
+		<h4 class ="connect">
+			Connect
+		</h4>
+		<em> nilishasoni7@gmail.com </em> <br>
+		<a  href="https://www.linkedin.com/in/nilishasoni"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8Al9MAlNJnueEAktGr0uv4/f4ootgAj9AAk9EAkNDj8fnl8/mj0OoaoNf1+fzY7fd4wOQAmtS93fCJyOduveJcs95Jq9x6weTq9/zL5/TE5PSl1Ozx+/2SyecxoNdAptiaz+rS6vW03O+r2e5ltN+q732cAAADwElEQVR4nO2d63KiMBhAJWQRUrR4v1VXsfv+r7iow1aCaN2BxKTn/HJMDJyBkC8XSa8HAAAAAAAAAAAAAAAAAAAAAAAAAAAA32E1mc5CQ0wnK+N+2TxQiTBFooJ5ZlZwFIvALCIeGfR7XyjDfifU4t2Y4SKxIBgEycKU4MjGFTyhlmYEs9iSYBDEZh43c9MPmS/E3ITgyprfCRPt4sRWLTyhJgYMp3YepBeSqQHDmb1qWFTEmQHD0KphiCGGGGKIIYYYYmjG8DR05LOhTPrhbD6U0lPDZPyxPefKlp1cSOuGMtz+y5cPO1C0bZhUjr8de2co+tWcWft9ZcuG8VrLOmr9cWPZsK9nzVqviXYNk10t72+/DNWxlrf1oVXLhno17CDCs2y4qeX17BrKj1revV+G9UmFtGU/24ZBrE8qDHxrD/XDR+2HbbbjUlWtifP2e1C2DasPm7CDSSrrhkX3qayLm30Xc1T2DQMh5oPN5rjry05GMl7AsDgJqZTqao7xJQw7BcMXNXyiQOcMT0vyhv39vj+W6lvF2jYUcYWv9lAodfV1uepPysVunW6jIvpZZZ+z8TckbUdts+j9mrcyahOjSkI0OhWRJLtqHBttFg9XPFo2lL+qOaN+maD1qz6KcC5ZRvWy8/2DQM8Vw0ERDtS7y2em90M9ZwzV8K2p+MPddYEvazioJgxE2lz+8t6N6orhoeEWvXBv6MMVw/sLDNd3LqIrhg9Y3Glx/TCcNF9ETwzvjO94YvjEYFcntNAePuLYeJu+rOHtaxit8jy9Ebv10sZW3ynDPBzHRZdjHN74h4F7d+kNw2k5VCVFfVausdF3yHB6dSPKXE9tXEvujmF+3YUQtf8z7ZrG6twxrE4sSr0qHpoeps4YatNu8qClfzhveKz2c8UfLf3TeUP9fzf6OpXPpp6+M4YjvQwt3X3DP1oZSkt331DvAcZauvuGesyiGx6dN+xrv8QQw3bB8IufbDjEEMNOacEwwrDxrQbeGG4w7BQMr0QwxBDDjjAR0/wAw6bpNW8M184YlhNoz/YPnTEsh9Rqs9wPDV2ph94b9v7bMH9RQzFapWn6dqH4lI0fJZSoLL1m9aqza+c3Ygh54fSpmiDK70X9/GVQfSVr4xFcW8n+NBhiiCGGGGKIIYYYYoghhhhieDY08T5v/9/J7v979f3fG8H//S1+wB4l/u8zY22vIGlsryBr+z1tH59aaywt7Nll7Ba94P2+az2je+fNbOydBwAAAAAAAAAAAAAAAAAAAAAAAAAA4CZ/AdtsXyuxMRRGAAAAAElFTkSuQmCC"
+			style="width: 50px;" />
+		</a>
 	</div>
 </body>
 </html>
