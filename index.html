@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My Site</title>
+	<title>Nilisha Soni</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		div.intro {
@@ -29,23 +29,37 @@
 		h2{
 			color: #0077B5;
 		}
-
+		div.education {
+			padding: 15px;
+		}
 		div.connect {
+			padding: 10px;
 			background-color: #f0f0f0;
-			border: 1px solid black;
 			text-align: center;
-			margin: 10px 0 0 0;
+		}
+		div.experience{
+			padding: 15px;
 		}
 		table.schools {
 			width: 100%;
 			border: 1px solid black;
 			border-collapse: collapse;
 		}
+		table.skills {
+			width: 100%;
+			border-collapse: collapse;
+		}
 		h4.connect{
 			color: #03b6fc;
 		}
-		td{
+		table.schools.td{
 			padding: 15px;
+		}
+		table.work.td{
+			padding: 15px;
+		}
+		em.mailid{
+			color: #0077B5;
 		}
 
 	</style>
@@ -62,7 +76,7 @@
 		<h2>ABOUT ME</h2>
 		<p>I am a software developer with a demonstarted skill in writing scalable and efficient code. I mostly work on the backend and logic implementation. I practice writing modular, testable code abiding  by design patterns as applicable. To develop my frontend skills, I am building this personal website. I like to keep learning and improving my technical skills.</p>
 	</div>
-	<table>
+	<table class ="work">
 		<tr>
 			<td>
 				<div class="experience">
@@ -100,20 +114,54 @@
 			<td>
 				<div class="skills">
 					<h2>SKILLS</h2>
-					<em>Programming Languages</em>: Java, Python <br> <em>Application
-					Frameworks</em>: Spring-boot, Flask<br> <em>Database and Storage</em>:
-					DynamoDB, MySQL, MongoDB <br> <em>Big Data Ecosystems</em>:
-					Zookeeper, Kafka, Elasticsearch, Logstash, Kibana<br> <em>Tools</em>:
-					Eclipse, Pycharm, Sublime<br> <em>Version Control</em> : Git <br>
-					<em>Platforms</em>: Linux, MacOS <br> <em>Application Server</em>:
-					Apache Tomcat (Eureka) <br> <em>Container Orchestration
-					Platforms</em>: Kubernetes, Swarm <br> <em>AWS </em>: ES , S3, SQS,
-					RDS <br>
+					<table class="skills">
+						<tr>
+							<td><em>Programming Languages</em>:</td>
+							<td>Java, Python</td>
+						</tr>
+						<tr>
+							<td><em>Application
+							Frameworks</em>:</td>
+							<td>Spring-boot, Flask</td>
+						</tr>
+						<tr>
+							<td><em>Database and Storage</em>:</td>
+							<td>DynamoDB, MySQL, MongoDB</td>
+						</tr>
+						<tr>
+							<td><em>Big Data Ecosystems</em>:</td>
+							<td>Zookeeper, Kafka, Elasticsearch, Logstash, Kibana</td>
+						</tr>
+						<tr>
+							<td><em>Tools</em>:</td>
+							<td>Eclipse, Pycharm, Sublime</td>
+						</tr>
+						<tr>
+							<td><em>Version Control</em>:</td>
+							<td>Git </td>
+						</tr>
+						<tr>
+							<td><em>Platforms</em>:</td>
+							<td>Linux, MacOS </td>
+						</tr>
+						<tr>
+							<td><em>Application Server</em>:</td>
+							<td>Apache Tomcat (Eureka)</td>
+						</tr>
+						<tr>
+							<td><em>AContainer Orchestration</em>:</td>
+							<td>Kubernetes, Swarm</td>
+						</tr>
+						<tr>
+							<td><em>AWS</em>:</td>
+							<td>ES , S3, SQS, RDS </td>
+						</tr>
+					</table> 
 				</div>
 			</td>
 		</tr>
 	</table>
-	<div class="Education">
+	<div class="education">
 		<h2>EDUCATION</h2>
 		<table class ="schools">
 			<tr>
@@ -130,10 +178,7 @@
 	</div>
 	<br>
 	<div class="connect">
-		<h4 class ="connect">
-			Connect
-		</h4>
-		<em> nilishasoni7@gmail.com </em> <br>
+		<em class="mailid"> nilishasoni7@gmail.com </em> <br>
 		<a  href="https://www.linkedin.com/in/nilishasoni"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8Al9MAlNJnueEAktGr0uv4/f4ootgAj9AAk9EAkNDj8fnl8/mj0OoaoNf1+fzY7fd4wOQAmtS93fCJyOduveJcs95Jq9x6weTq9/zL5/TE5PSl1Ozx+/2SyecxoNdAptiaz+rS6vW03O+r2e5ltN+q732cAAADwElEQVR4nO2d63KiMBhAJWQRUrR4v1VXsfv+r7iow1aCaN2BxKTn/HJMDJyBkC8XSa8HAAAAAAAAAAAAAAAAAAAAAAAAAAAA32E1mc5CQ0wnK+N+2TxQiTBFooJ5ZlZwFIvALCIeGfR7XyjDfifU4t2Y4SKxIBgEycKU4MjGFTyhlmYEs9iSYBDEZh43c9MPmS/E3ITgyprfCRPt4sRWLTyhJgYMp3YepBeSqQHDmb1qWFTEmQHD0KphiCGGGGKIIYYYYmjG8DR05LOhTPrhbD6U0lPDZPyxPefKlp1cSOuGMtz+y5cPO1C0bZhUjr8de2co+tWcWft9ZcuG8VrLOmr9cWPZsK9nzVqviXYNk10t72+/DNWxlrf1oVXLhno17CDCs2y4qeX17BrKj1revV+G9UmFtGU/24ZBrE8qDHxrD/XDR+2HbbbjUlWtifP2e1C2DasPm7CDSSrrhkX3qayLm30Xc1T2DQMh5oPN5rjry05GMl7AsDgJqZTqao7xJQw7BcMXNXyiQOcMT0vyhv39vj+W6lvF2jYUcYWv9lAodfV1uepPysVunW6jIvpZZZ+z8TckbUdts+j9mrcyahOjSkI0OhWRJLtqHBttFg9XPFo2lL+qOaN+maD1qz6KcC5ZRvWy8/2DQM8Vw0ERDtS7y2em90M9ZwzV8K2p+MPddYEvazioJgxE2lz+8t6N6orhoeEWvXBv6MMVw/sLDNd3LqIrhg9Y3Glx/TCcNF9ETwzvjO94YvjEYFcntNAePuLYeJu+rOHtaxit8jy9Ebv10sZW3ynDPBzHRZdjHN74h4F7d+kNw2k5VCVFfVausdF3yHB6dSPKXE9tXEvujmF+3YUQtf8z7ZrG6twxrE4sSr0qHpoeps4YatNu8qClfzhveKz2c8UfLf3TeUP9fzf6OpXPpp6+M4YjvQwt3X3DP1oZSkt331DvAcZauvuGesyiGx6dN+xrv8QQw3bB8IufbDjEEMNOacEwwrDxrQbeGG4w7BQMr0QwxBDDjjAR0/wAw6bpNW8M184YlhNoz/YPnTEsh9Rqs9wPDV2ph94b9v7bMH9RQzFapWn6dqH4lI0fJZSoLL1m9aqza+c3Ygh54fSpmiDK70X9/GVQfSVr4xFcW8n+NBhiiCGGGGKIIYYYYoghhhhieDY08T5v/9/J7v979f3fG8H//S1+wB4l/u8zY22vIGlsryBr+z1tH59aaywt7Nll7Ba94P2+az2je+fNbOydBwAAAAAAAAAAAAAAAAAAAAAAAAAA4CZ/AdtsXyuxMRRGAAAAAElFTkSuQmCC"
 			style="width: 50px;">
 		</a>
